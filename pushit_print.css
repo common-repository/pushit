@@ -1,0 +1,33 @@
+/*<link rel="stylesheet" type="text/css" href="print.css" media="print">*/
+@media print{
+body {
+background-color: transparent;
+font-size: 12pt;
+font-family:Georgia,Times,serif;
+color:#000000;
+padding: 0px;
+margin: 0px; }
+
+p {
+page-break-inside:avoid;}
+
+a:link:after, a:visited:after { 
+font-size: 12pt;
+color: #000000;
+text-decoration: underline;
+background-color:transparent; }
+#respond{display:none;}
+#commentform{display:none;}
+#footer{display:none;}
+#search_menu{display:none;}
+#menu{display:none;}
+#topbanner_single{display:none;}
+#comment-form{display:none;}
+#home_right{display:none;}
+#sidebar3{display:none;}
+#sidebar2{display:none;}
+#sidebar{display:none;}
+#side_recent_comments{display:none;}
+
+}
+
